@@ -1,1 +1,273 @@
-<h1>Hello</h1>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tech-Hub</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="Tech-Hub.css">
+</haed>
+<body>
+	<div id="page1">
+		<div id="nav-container">
+			<div id="nav">
+				<a class="nac-item">HOME</a>
+				<hr>
+				<a class="nac-item">ABOUT</a>
+				<hr>
+				<a class="nac-item">MEET UPS</a>
+				<hr>
+				<a class="nac-item">CONTACTS</a>
+				<hr>
+				<a class="nac-item">BLOG</a>
+			</div>
+		</div>
+		<div id='nav-btn' onclick="menu(this)">
+			<div id="bar1"></div>
+			<div id="bar2"></div>
+			<div id="bar3"></div>
+		</div>
+		<div id="header">
+			<h1>Tech Hub</h1>
+			<p>SHARE YOUR PASSION</p>
+		</div>
+		<div id="sub-section">
+			<div id="btns1">
+				<div class="bttons1">
+				<h1 id="sub-header">Get Started!</h1>
+				<a class="btns1">Sign Up</a>
+				</div>
+				<div class="bttons1">
+				<a class="btns1" id="log-in">Log in</a>
+				<h1 id="footer-header">trending</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="page2">
+		<div id="page2-header">
+			<h1>BLOG</h1>
+			<p>See What's Trending on Tech Hub!</p>
+		</div>
+		<div id="acc-container">
+			<div class="acc-section">
+				<div class="acc-header">
+					<h1 class="blog-header">TITLE HEADING</h1>
+					<p class="blog-descript">Blog description, June 10, 2017</p>
+				</div>
+				<div class="img">
+					<img class="blog-pic" src="http://www.androidguys.com/wp-content/uploads/2016/05/6806691-pretty-summer-screensavers.jpg">
+				</div>
+				<div class="caption">
+					<p> Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+				</div>
+				<div class="blog-btn">
+					<button class="like" onclick="liked(1)"><i class="fa fa-thumbs-up" aria-hidden="true"></i>Like</button>
+					<div class="replies" onclick="show(1)"><p>Replies</p><div class="not">1</div></div>
+				</div>
+				<hr>
+				<div class="comment-section">
+					<div class="profile-pic">
+						<img src="https://blog.ink361.com/wp-content/uploads/2015/10/cover.jpeg">
+					</div>
+					<div class="comment">
+						<h1>John Smith<span>June 11, 2017, 3:12 PM</span></h1>
+						<p>Awesome thanks for sharing!</p>
+					</div>
+				</div>
+			</div>
+			<div class="acc-section">
+				<div class="acc-header">
+					<h1 class="blog-header">TITLE HEADING</h1>
+					<p class="blog-descript">Blog description, June 4, 2017</p>
+				</div>
+				<div class="img">
+					<img class="blog-pic" src="http://www.allax.ir/wp-content/uploads/2014/08/allax-18.jpg">
+				</div>
+				<div class="caption">
+					<p> Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum.</p>
+				</div>
+				<div class="blog-btn">
+					<button class="like" onclick="liked(2)"><i class="fa fa-thumbs-up" aria-hidden="true"></i>Like</button>
+					<div class="replies" onclick="show(2)"><p>Replies</p><div class="not">2</div></div>
+				</div>
+				<hr>
+				<div class="comment-section">
+					<div class="profile-pic">
+						<img src="https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg">
+					</div>
+					<div class="comment">
+						<h1>Emily<span>June 5, 2017, 1:31 PM</span></h1>
+						<p>Where did you take this at?</p>
+					</div>
+				</div>	
+				<div class="comment-section">
+					<div class="profile-pic">
+						<img src="https://s-media-cache-ak0.pinimg.com/736x/0d/c7/2f/0dc72fa6cd9a3536f6042b0b3a46d536--phone-backgrounds-tumblr-wallpaper-iphone.jpg">
+					</div>
+					<div class="comment">
+						<h1>Edward<span>June 5, 2017, 5:20 PM</span></h1>
+						<p>What a view!</p>
+					</div>
+				</div>
+			</div>
+			<div class="acc-section">
+				<div class="acc-header">
+					<h1 class="blog-header">TITLE HEADING</h1>
+					<p class="blog-descript">Blog description, July 10, 2017</p>
+				</div>
+				<div class="img">
+					<img class="blog-pic" src="https://llandscapes-ee1.kxcdn.com/wp-content/uploads/2015/09/4.jpg">
+				</div>
+				<div class="caption">
+					<p> Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at.</p>
+				</div>
+				<div class="blog-btn">
+					<button class="like" onclick="liked(3)"><i class="fa fa-thumbs-up" aria-hidden="true"></i>Like</button>
+					<div class="replies" onclick="show(3)"><p>Replies</p><div class="not">3</div></div>
+				</div>
+				<hr>
+				<div class="comment-section">
+					<div class="profile-pic">
+						<img src="https://static.pexels.com/photos/226243/pexels-photo-226243.jpeg">
+					</div>
+					<div class="comment">
+						<h1>PenPal123<span>July 11, 2017, 7:01 PM</span></h1>
+						<p>Dope pic!</p>
+					</div>
+				</div>	
+				<div class="comment-section">
+					<div class="profile-pic">
+						<img src="https://iso.500px.com/wp-content/uploads/2016/03/pedroquintela.jpg">
+					</div>
+					<div class="comment">
+						<h1>Sarah<span>July 13, 2017, 8:01 PM</span></h1>
+						<p>Amazing!</p>
+					</div>
+				</div>
+				<div class="comment-section">
+					<div class="profile-pic">
+						<img src="http://d2fbmjy3x0sdua.cloudfront.net/cdn/farfuture/Cqv70fF7a1MntNfW3JszVmaO-Z0olFDf4VP99x7jfos/mtime:1497983286/sites/default/files/styles/hero_image/public/web_cape-may-warbler-male-foraging_zm45127-magee-marsh-ohio-may_0.jpg?itok=L2TnF9QW">
+					</div>
+					<div class="comment">
+						<h1>Photog456<span>July 13, 2017, 10:15 PM</span></h1>
+						<p>What camera did you use?</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="cont-container">
+			<div id="side-cont">
+			<div id="side-cont-pic">
+				<img src="http://www.jpjouve.com/wp-content/uploads/2014/08/20140829-jp-jouve-black-white-street-photography-bordeaux-Low-tide-HQ.jpg">
+			</div>
+			<div class ="header" id="descrpt">
+				<h1>Description</h1>
+				<p>Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui </p>
+			</div>
+		</div>
+			<div id="pop">
+				<div class ="header"  id="pop-header">
+					<h1>Popular Posts</h1>
+				</div>
+				<div id="pop-cont">
+					<div class="pop-cont-item">
+						<div class="pop-cont-img">
+							<img src="https://cdn.pixabay.com/photo/2012/12/14/15/23/jaguar-70026_960_720.jpg">
+						</div>
+						<div class="pop-cont-descipt">
+							<h1>Sample Header</h1>
+							<p>porta lectus vitae</p>
+						</div>
+					</div>
+					<hr>
+					<div class="pop-cont-item">
+						<div class="pop-cont-img">
+							<img src='https://s-media-cache-ak0.pinimg.com/736x/99/7b/f5/997bf593b7752aeba70bef3db9cbb84c--face-profile-profile-man.jpg'>
+						</div>
+						<div class="pop-cont-descipt">
+							<h1>Sample Header</h1>
+							<p>porta lectus vitae</p>
+						</div>
+					</div>
+					<hr>
+					<div class="pop-cont-item">
+						<div class="pop-cont-img">
+							<img src="https://cdn.pixabay.com/photo/2014/09/17/20/03/profile-449912_960_720.jpg">
+						</div>
+						<div class="pop-cont-descipt">
+							<h1>Sample Header</h1>
+							<p>porta lectus vitae</p>
+						</div>
+					</div>
+					<hr>
+					<div class="pop-cont-item">
+						<div class="pop-cont-img">
+							<img src="http://www.jpjouve.com/wp-content/uploads/2014/08/20140829-jp-jouve-black-white-street-photography-bordeaux-Low-tide-HQ.jpg">
+						</div>
+						<div class="pop-cont-descipt">
+							<h1>Sample Header</h1>
+							<p>porta lectus vitae</p>
+						</div>
+					</div>
+				</div>	
+			</div>
+			<div id="ad">
+			<div class ="header" id="ad-header">
+				<h1>Advertise</h1>
+			</div>
+			<div id="ad-box">
+				<h1>Your AD Here</h1>
+			</div>
+		</div>
+			<div id="sub">
+			<div class="header" id="sub-header">
+				<h1>Subscribe</h1>
+			</div>
+			<div id="sub-des">
+				<p>Enter your e-mail below and get notified on the latest blog posts.</p>
+			</div>
+			<input type="text" placeholder="Enter Email">
+			<button id="sub-btn">Subscribe</button>
+		</div>
+		</div>
+	</div>
+	<div id="page3">
+		<div id="page3-pic-container">
+			<img src="https://i.pinimg.com/originals/b0/59/ef/b059ef0c660037a0967da786cfb462dc.jpg">
+		</div>
+		<div id="page3-content">
+			<h1 id="page3-header">ABOUT</h1>
+			<p class="page3-paragraph">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam</p>
+			<br>
+			<p class="page3-paragraph">nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+		</div>
+	</div>
+	<div id="page4">
+		<div id="page4-header">
+			<h1>Find your nearest Location</h1>
+		</div>
+		<div id="map">
+		</div>
+	</div>
+	<footer>
+		<div id="share">
+			<i class="fa fa-google" aria-hidden="true"></i>
+			<i class="fa fa-instagram" aria-hidden="true"></i>
+			<i class="fa fa-snapchat" aria-hidden="true"></i>
+			<i class="fa fa-twitter" aria-hidden="true"></i>
+			<i class="fa fa-facebook" aria-hidden="true"></i>
+		</div>
+		<h1>@2017 New Wave</h1>
+		<div id="terms">
+			<a href="#">Privacy Policy</a>
+			<a href="#">Terms and Conditions</a>
+			<a href="#">Ads info</a>
+			<a href="#">blog</a>
+		</div>
+	</footer>
+	<script src="Tech-Hub.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzJiHQddxio3Q0UCVXDdCHIEOjnJFE0SE&callback=myMap"></script>
+</body>
+</html>
