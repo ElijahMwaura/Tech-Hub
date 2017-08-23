@@ -65,13 +65,13 @@ function show(n) {
 
 var like = document.getElementsByClassName("like");
 function liked(j) {
-		if(acc[j - 1].childNodes[7].firstElementChild.style.background == "blue") {
-			acc[j - 1].childNodes[7].firstElementChild.style.background = "white";
-			acc[j - 1].childNodes[7].firstElementChild.style.color = "black";
-			acc[j - 1].childNodes[7].firstElementChild.innerHTML = "<i class='fa fa-thumbs-up'></i>" + "Like";
-		} else {
-			acc[j - 1].childNodes[7].firstElementChild.style.background = "blue";
-			acc[j - 1].childNodes[7].firstElementChild.style.color = "white";
-			acc[j - 1].childNodes[7].firstElementChild.innerHTML = "<i class='fa fa-thumbs-up'></i>" + "Liked";
-		}
+	if(acc[j - 1].childNodes[7].firstElementChild.style.background == "blue") {
+		acc[j - 1].childNodes[7].firstElementChild.style.background = "white";
+		acc[j - 1].childNodes[7].firstElementChild.style.color = "black";
+		acc[j - 1].childNodes[7].firstElementChild.innerHTML = "<i class='fa fa-thumbs-up'></i>" + "Like";
+	} else {
+		acc[j - 1].childNodes[7].firstElementChild.style.background = "blue";
+		acc[j - 1].childNodes[7].firstElementChild.style.color = "white";
+		acc[j - 1].childNodes[7].firstElementChild.innerHTML = "<i class='fa fa-thumbs-up'></i>" + "Liked";
 	}
+}
