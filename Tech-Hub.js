@@ -35,7 +35,7 @@ function iterate2() {
 		b.style.marginLeft = "10px";
 	} else {
 		b.style.marginLeft = i + "px";
-	    i -= 50;
+	    	i -= 50;
 	}
 }
 
