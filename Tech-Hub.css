@@ -424,7 +424,7 @@ html, body {
 
 #pop-header > h1 {
 	margin:0px;
-	margin-left:10px;
+	margin-left:20px;
 }
 
 .pop-cont-item {
@@ -484,7 +484,7 @@ html, body {
 
 #ad-header > h1 {
 	margin:0px;
-	margin-left:10px;
+	margin-left:20px;
 }
 
 #ad-box {
@@ -514,7 +514,7 @@ html, body {
 
 #sub-header > h1 {
 	margin:0px;
-	margin-left:10px;
+	margin-left:20px;
 	font-size:32px;
 }
 
